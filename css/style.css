@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*====================Header Start======================*/
+header{
+    padding: 10px 0px;
+    background-color: #ffffff;
+}
+
+.wrapper {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+    margin-top: 13px;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    
+}
+.menu ul li a{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    color: #7D889E;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 55px;
+    display: inline-block;
+    transition: .3s;
+
+}
+
+.menu ul li a:hover{
+    color: #60a5f8;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+
+
+/*====================Header End======================*/
+
+
+/*====================Banner Start======================*/
+
+.banner{
+    background-image: url(../images/dreeam_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+}
+
+
+.bn_contain{
+     width: 40%;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    background-color: rgba(11,11,11,.5);
+   
+}
+.bn_contain h1{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 54px;
+    color: #CDB9B8;
+    text-transform: uppercase;
+    line-height: 1.7;
+    margin: 0;
+    
+}
+.bn_contain p{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #CDB9B8;
+    line-height: 1.7;
+    margin: 0;
+    
+}
+.bn_contain button{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    color: #ffffffbd;
+    text-transform: lowercase;
+    background-color: #00000094;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+.bn_content button:hover{
+    color: black;
+    background: white;
+
+}
+.bn_content button:focus{
+    outline: 0;
+}
+
+
+
+
+/*====================Banner End======================*/
